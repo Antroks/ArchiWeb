@@ -44,7 +44,7 @@ body {
 /********************Header***********************/
 .header {
     padding-top: 45px;
-    padding-bottom: 79px;
+    padding-bottom: 85px;
 }
 
 .header__flex {
@@ -59,19 +59,28 @@ body {
 }
 
 nav {
-    margin-left: 283px;
-    padding-top: 5px;;
+    margin-left: 285px;
+    /* margin-left: 19px;  */
+    padding-top: 5px;
+    
     /* margin-top: 5px; */
 }
 .header-menu {
     display: flex;
-    gap: 108px;
+    gap: 94px;
+
 }
 
 .header-menu li {
     list-style-type: none;
-    
+    width: 77px; 
 }
+
+.menu-width {
+    width: 57px;
+}
+
+
 
 .header-menu a {
     text-decoration: none;
@@ -81,19 +90,23 @@ nav {
     font-weight: 400;
 }
 
+
+
 .header-menu a:active {
     font-weight: 700;
 }
 
 .header-menu a:hover {
     font-weight: 700;
+
 }
+
+
 
 .search {
     color: #2F2E2E;
 }
-
-.fa {
+.header .fa {
     cursor: pointer;
     font-weight: 900;
     font-size: 25px;
@@ -322,6 +335,222 @@ nav {
     margin-left: 21px;
 }
 
+
+/*****************************Footer*************************/
+
+.footer {
+    padding-top: 47px;
+    padding-bottom: 44px;
+    background-color: #2F2E2E;
+    color: #fafafa;
+}
+.footer__flex {
+    display: flex;
+    gap: 140px;
+}
+.footer__flex-item {
+}
+.logo-block {
+}
+.logo {
+}
+.footer .text-p {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    width: 285px;
+    line-height: 29px;
+    margin-bottom: 44px;
+
+}
+
+
+.cosial {
+    display: flex;
+    gap: 16px;
+}
+
+
+    
+.cosial .fa {
+    cursor: pointer;
+}
+
+.facebook {
+    margin-left: 7px;
+    font-size: 24px;
+    margin-right: 26px;
+}
+
+.twitter {
+    font-size: 26px;
+    margin-right: 23px;
+}
+
+.instagram {
+    font-size: 24px;
+}
+
+.text-h4 {
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+
+.arcticles {
+    padding: 0;
+    margin: 0;
+    margin-left: 2px;
+    font-size: 17px;
+    list-style-type: none;
+    width: 201px;
+    font-family: "Inter", sans-serif;
+}
+
+.arcticles li {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+.arcticles li:last-child {
+    margin-bottom: 0;
+}
+.block-margin {
+    margin-right: 177px;
+}
+
+.map-title {
+    margin-left: 0;
+}
+
+.footer-map {
+    height: 221px;
+    width: 295px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+    }
+    .text-block {
+        margin-left: 50px;
+    }
+
+    .projects__grid {
+        text-align: center;
+        gap: 60px   ;
+    }
+
+    .testimonial__flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__flex {
+        justify-content: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .text-h2 {
+        font-size: 40px;
+    }
+
+    .logo-block {
+        margin-left: 15px;
+    }
+
+    nav {
+        margin-left: 0px;
+    }
+
+    .header-menu {
+        gap: 65px;
+    }
+
+    .search {
+        margin-right: 15px;
+    }
+
+    .solution-item {
+        padding-top: 125px;
+        padding-left: 60px;
+        height: 480px;
+        width: 520px;
+    }
+
+    .solution-item .text-h2 {
+       text-align: left;
+       width: 329px;
+
+    }
+
+    .text-block {
+        margin-top: 45px;
+        margin-left: 25px;
+    }
+    
+    .aboutus__flex img {
+        height: 430px;
+        width: 500px;
+    }
+
+
+    .aboutus__flex .text-p {
+        font-size: 25px;
+    }
+    .project .text-h2 {
+        text-align: center;
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* .projects__grid {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    } */
+
+ 
+
+    .testimonial__flex-item {
+        flex-wrap: wrap;
+    }
+
+    .block-right {
+        margin-right: 0;
+    }
+
+
+
+
+    .block-margin {
+        margin-right: 0px;
+    }
+
+    .footer__flex {
+        gap: 75px;
+    }
+
+
+
+} 
 
  
   
