@@ -692,6 +692,11 @@ nav {
 
         font-size: 30px;
     }
+
+    .footer .logo-block {
+        margin-left: 0;
+    }
+    
     .footer .text-p {
         font-size: 15px;
     }
@@ -707,7 +712,10 @@ nav {
 
     .footer__flex {
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 0;
+        justify-content: center;
+        column-gap: 130px;
+        row-gap: 40px;
     }
 
     .map-title {
@@ -716,8 +724,105 @@ nav {
 
     .footer-map {
         height: 230px;
-        width: 551px;
+        width: 620px;
     }
+}
+
+@media screen and (max-width: 576px) {
+
+    /*****************************About us*************************/
+
+    .aboutus {
+        padding-top: 0;
+    }
+    .aboutus__flex {
+        flex-direction: column;
+    }
+
+    .aboutus__flex img {
+        width: 100%;
+        height: auto;
+    }
+    .text-block {
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .text-block .text-h2 {
+        text-align: center;
+    }
+    .aboutus__flex .text-p {
+        width: 100%;
+    }
+    
+    /*****************************Projects*************************/
+
+    .projects__grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+
+    .project .text-h2 {
+       margin-left: 0;
+       margin-bottom: 50px;
+    }
+
+    .projects__grid img {
+        width: 100%;
+    }
+
+    .projects__grid .text-p {
+        font-size: 18px;
+    }
+
+
+
+    .footer {
+        padding-bottom: 80px;
+    }
+
+    .footer .text-h4 {
+        font-size: 24px;
+    }
+
+    .footer__flex {
+        display: block;
+    }
+
+    .footer__flex-item {
+        text-align: center;
+    }
+
+    .footer .text-p {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .logo-block {
+        position: relative;
+    }
+    .cosial {
+        justify-content: center;
+        position: absolute;
+        top: 585px;
+        left: 35%;
+
+    }
+
+    .arcticles {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .footer-map {
+        width: 100%;
+    }
+    
+
 }
 
  
