@@ -807,7 +807,7 @@ nav {
     .cosial {
         justify-content: center;
         position: absolute;
-        top: 585px;
+        top: 610px;
         left: 35%;
 
     }
@@ -820,6 +820,10 @@ nav {
     }
     .footer-map {
         width: 100%;
+    }
+
+    .footer .text-h4 {
+        margin-bottom: 30px;
     }
     
 
